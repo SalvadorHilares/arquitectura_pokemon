@@ -1,0 +1,48 @@
+APLICACION USANDO LA API POKEAPI.
+---------------------------------
+
+RECURSOS NECESARIOS PARA IMPLEMENTAR LA POKEAPI.
+------------------------------------------------
+
+TEMAS USADOS EN LA APP.
+-----------------------
+
+- OAUTH
+- MICROSERVICIOS
+- TESTING Y CODE COVERAGE
+- GRAPHQL
+- DATA SHARDING (OPCIONAL)
+
+Jmeter
+Postman
+MongoDB
+
+ENDPOINT 		 ---> https://pokeapi.co/api/v2/ ---> A partir de aqui hacer varios llamados para lo que quieras usar.
+URL DE LA WEB DE POKEAPI ---> https://pokeapi.co/docs/v2#resource-listspagination-section
+
+CREAR UNA WEB INSPIRADA EN POKEMON CRATER.
+------------------------------------------
+
+PRIMERO ACABAR CON LA PARTE DEL BACK-END.
+-----------------------------------------
+
+FUNCIONALIDADES DEL PRODUCTO DE MANERA GENERAL.
+-----------------------------------------------
+- CREAR UN MICROSERVICIO DONDE SE OBTENDRA LOS POKEMON DE LA ZONA (SOLO DATOS DE LOS POKEMON DE LA ZONA):
+	* Obtener la imagen del pokemon.
+	* Obtener la informacion basica del pokemon:
+		- Nombre
+		- Experiencia base
+		- Level
+		- Atributos
+		- Stats
+	* Obtener el daño en promedio del pokemon salvaje hacia el pokemon de la persona (FALTA)
+- CREAR UN MICROSERVICIO QUE OBTENGA LOS DATOS DE LOS POKEMON DE LA PERSONA:
+	* Obtener la imagen del pokemon.
+	* Obtener la informacion basica del pokemon:
+		- Nombre
+		- Experiencia base
+		- Level
+		- Atributos
+		- Stats
+	* Obtener el daño en promedio del pokemon de la persona hacia el pokemon salvaje
